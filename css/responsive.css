@@ -1,0 +1,227 @@
+@media (min-width: 1369px) and (max-width: 1920px) {
+.about-block {
+  height: 50.1%;
+  width: 31.5%;
+}
+.portfolio-block {
+  height: 50.1%;
+  width: 31.5%;
+}
+.contact-block {
+  height: 50.35%;
+  width: 31.5%;
+}
+.blog-block {
+  height: 50.35%;
+  width: 31.5%;
+}
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+.name-block-container {
+  padding-left: 220px;
+  padding-right: 20px;
+}
+h2.about.menu-item::before, h2.portfolio.menu-item::before, h2.blog.menu-item::before, h2.contact.menu-item::before {
+  left: 9%;
+}
+.name-block {
+  width: 56.5%;
+}
+.name-block-container h2 {
+  font-size: 23px;
+}
+.about-block,.portfolio-block,.blog-block,.contact-block{
+  height: 50.1%;
+  width: 31.75%;
+}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.home {
+	overflow-y: hidden;
+}
+.name-block-container {
+  padding-left: 220px;
+  padding-right: 20px;
+}
+.name-block {
+  width: 68.25%;
+}
+.about-block, .blog-block,.portfolio-block,.contact-block{
+  height: 50.1%;
+  left: 43.3%;
+  width: 28.6%;
+}
+.portfolio-block {
+  left: 71.4%;
+  top: 0px;
+}
+.contact-block {
+  background: rgba(252, 210, 8, 0.7) none repeat scroll 0 0;
+  left: 71.4%;
+}
+h2.menu-item {
+  font-size: 0;
+}
+h2.contact {
+  margin-left: 0px;
+  padding-left:0px;
+}
+.name-block.reverse {
+  width: 42%;
+}
+#project-modal, #post-modal, .content-blocks {
+  left: 42%;
+  width: 58%;
+}
+.inline-menu-container {
+  left: 42%;
+  width: 58%;
+}
+.awards a {
+  margin-bottom: 30px;
+}
+.icons-bottom {
+  margin-bottom: 30px;
+}
+.project {
+  float: none;
+  width: 100%;
+}
+#filters > li {
+  font-weight: 600;
+  padding: 8px 10px;
+}
+.name-block-container h2 {
+  font-size: 20px;
+}
+  
+  
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px} 
+	
+.home {
+	overflow-y: scroll;
+}
+.inline-menu li a {
+  font-size: 13px;
+  padding: 12px 4px;
+}
+.inline-menu {
+  float: none;
+  margin: 0;
+  padding: 0 5px 0 0;
+  text-align: center;
+}
+ .name-block, .about-block, .portfolio-block, .blog-block, .contact-block {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: -moz-use-text-color -moz-use-text-color rgba(255, 255, 255, 0.5);
+  border-image: none;
+  border-style: none none solid;
+  border-width: medium medium 1px;
+  display: table;
+  height: auto;
+  left: 0;
+  padding-left: 20px;
+  position: relative;
+  text-align: left;
+  top: 0;
+  transform: rotate(0deg);
+  width: 100%;
+}
+h2.contact {
+  margin-left:0px;
+}
+h2.about.menu-item::before, h2.portfolio.menu-item::before, h2.blog.menu-item::before, h2.contact.menu-item::before {
+  display: none;
+ }
+.about-block:hover,.portfolio-block:hover,.blog-block:hover,.contact-block:hover {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: -moz-use-text-color -moz-use-text-color #ddd;
+  border-image: none;
+  border-style: none none solid;
+  border-width: medium medium 1px;
+}
+h2.portfolio,h2.about,h2.blog,h2.contact {
+  padding-left: 0;
+}
+
+.name-block-container,
+.about-block-container,
+.portfolio-block-container,
+.blog-block-container,
+.contact-block-container {
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	padding: 0 0 0 0;
+}
+
+h2.menu-item {
+	line-height: 3em;
+	margin-bottom: 0;
+	display: block;
+}
+.social {
+	position: relative;
+	margin: 50px 0;
+}
+.icons-bottom {
+  margin-bottom: 40px;
+}
+
+#post-modal,
+#project-modal,
+.content-blocks {
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+	left: 0;
+}
+.inline-menu-container {
+	width: 100%;
+	left: 0;
+} 
+.awards a {
+  margin-bottom: 30px;
+}
+.name-block-container h2 {
+  font-size: 20px;
+}
+    
+ 
+}
+
+/* Large Mobile :480px. */
+@media (max-width: 570px) {
+.container {width:450px}
+ .project {
+  float: none;
+  width: 100%;
+  display: block;
+}
+.project a {
+  display: inline-block;
+  text-align: center;
+} 
+ 
+}
+
+	
+}
